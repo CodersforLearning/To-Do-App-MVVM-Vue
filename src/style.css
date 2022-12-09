@@ -23,6 +23,7 @@ body {
 /* To-Do List styles */
 .todo-list {
   list-style: none;
+  color: var(--quaternary-color);
   padding: 0;
 }
 
@@ -41,24 +42,28 @@ body {
 /* Input form styles */
 .input-form {
   display: flex;
-  align-items: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 .input-form input[type="text"] {
+  width: auto;
   padding: 8px;
   font-size: 16px;
   border: none;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   flex-grow: 1;
 }
 
 .input-form input[type="submit"] {
+  width: auto;
   background-color: var(--primary-color);
   color: var(--quaternary-color);
+  margin-top: 10px;
   padding: 8px;
   font-size: 16px;
   border: none;
-  border-radius: 0 4px 4px 0;
+  border-radius: 4px;
   cursor: pointer;
 }
 
