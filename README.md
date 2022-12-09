@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# ToDo App using Vue 3 and MVVM
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a basic ToDo app written in Vue 3 to demonstrate the principles of the Model-View-ViewModel architecture.
 
-## Recommended IDE Setup
+It's only functionality is to add and store new items. It does not delete or modify. Hence, a basic app.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## Getting Started
+To create a new Vue app using Vite, run   
+`npm create vite@latest . -- --template vue`.
+
+Then run `npm install` to install all dependencies.
+
+When done, run `npm run dev`.
