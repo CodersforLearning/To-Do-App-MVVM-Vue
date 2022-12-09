@@ -12,3 +12,7 @@ To create a new Vue app using Vite, run
 Then run `npm install` to install all dependencies.
 
 When done, run `npm run dev`.
+
+
+## References
+Inspired by [Tyler Potts](https://www.youtube.com/watch?v=qhjxAP1hFuIv).
